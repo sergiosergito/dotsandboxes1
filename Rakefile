@@ -7,9 +7,4 @@ RSpec::Core::RakeTask.new(:spec) do |t|
   t.rspec_opts = "--format documentation"
 end
 
-Cucumber::Core::RakeTask.new(:cucumber) do |t|
-  t.pattern = Dir.glob("feature/**/*_steps.rb")
-  t.rspec_opts = "--format documentation"
-end
-
 task default: :spec

@@ -12,6 +12,8 @@ gem "nokogiri"
 gem "matts_tictactoe_core"
 
 group :test, :development do
+  gem "cucumber"
+  gem "capybara"
   gem "rspec"
   gem "rake"
   gem "pry"

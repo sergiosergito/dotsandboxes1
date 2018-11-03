@@ -1,3 +1,4 @@
 language: ruby
 rvm: 2.4.4
-script: bundle exec cucumber
+script: bundle exec rake spec
+before_script: bundle exec cucumber

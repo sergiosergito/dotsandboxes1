@@ -7,7 +7,7 @@ gem "rspec"
 gem "simplecov"
 gem "simplecov-console"
 gem "capybara"
-gem "rack"
+gem "rack", ">= 2.0.6"
 gem "nokogiri"
 gem "matts_tictactoe_core"
 
